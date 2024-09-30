@@ -1,0 +1,11 @@
+<!DOCTYPE suite SYSTEM "https://testng.org/testng-1.0.dtd">
+
+<suite name="Login Functionality Tests" verbose="1">
+    <test name="LoginPageTest">
+    <parameter name="browser"  value="chrome"/>
+    <parameter name="mainUrl"  value="https://www.saucedemo.com/"/>
+        <classes>
+            <class name="io.github.crosstamomo.swaglabautomationscript.LoginPageTest"/>
+        </classes>
+    </test>
+</suite>
