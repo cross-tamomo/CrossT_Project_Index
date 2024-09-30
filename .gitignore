@@ -500,4 +500,168 @@ $RECYCLE.BIN/
 # Windows shortcuts
 *.lnk
 
+# IntelliJ IDEA
+.idea/
+*.iws
+*.iml
+*.ipr
+.idea_modules/
+.idea/artifacts/
+.idea/dataSources/
+.idea/dataSources.ids
+.idea/dataSources.xml
+.idea/dataSources.xml.jak
+.idea/dynamic.xml
+.idea/libraries/
+.idea/modules.xml
+.idea/shelf/
+.idea/tasks.xml
+.idea/vcs.xml
+.idea/workspace.xml
+.idea/uiDesigner.xml
+.idea/webResources.xml
+
+# Eclipse
+.classpath
+.project
+.settings/
+
+# OS-Specific
+# Windows
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+$RECYCLE.BIN/
+
+# macOS
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# Linux
+*~
+
+# Windows WSL2 specific
+.wslconfig
+.wslgconfig
+.wslu/
+
+# Build Directories
+bin/
+build/
+out/
+target/
+
+# Dependency directories
+lib/
+libraries/
+
+# Maven
+log/
+logs/
+*.log
+target/
+release/
+dependency-reduced-pom.xml
+buildNumber.properties
+.mvn/timing.properties
+.mvn/wrapper/maven-wrapper.jar
+.mvn/wrapper/maven-wrapper.properties
+.mvn/wrapper/maven-wrapper.jar.lastUpdated
+.mvn/wrapper/maven-wrapper.properties.lastUpdated
+
+# Gradle
+.gradle
+build/
+gradle-app.setting
+gradlew
+gradle/
+!gradle/wrapper/gradle-wrapper.jar
+.wrapper/
+
+# Java
+*.class
+*.jar
+*.war
+*.ear
+
+# Logs and temp files
+*.log
+*.swp
+*.swo
+*~
+*.bak
+*.tmp
+.*
+.pids
+*.pid
+*.seed
+*.pid.lock
+
+# IDE Workspaces
+*.launch/
+
+# TestNG
+test-output/
+*.testNg.xml
+*.testNG.test
+
+# Cucumber
+cucumber-report.html
+*.cucumber.json
+*.cucumber.html
+
+# Other IDEs
+.vscode/
+
+# Node
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+package-lock.json
+package-lock.yaml
+
+# Python
+*.py[cod]
+__pycache__/
+*.so
+
+# Rust
+*.rs.bk
+
+# Backup files
+*.bak
+*.swp
+*.swm
+*.swo
+
+# Docker
+docker-compose.override.yml
+
+# Redis
+dump.rdb
+
+# Generic git settings
+.git/
+*.orig
+
+# Java Annotation Processors
+.generated/
+
+# Service PIDs
+.pids
+*.pid
+
+# JetBrains IDEs
+*.ijwb/
+
+# Any temporary or cache files
+*.tmp
+.cache/
+.temp/
+
+# IntelliJ IDEA Language Injection cache
+*.ijlang/
+
 # End of https://www.toptal.com/developers/gitignore/api/intellij,git,windows,linux,intellij+all,intellij+iml,python,java,maven

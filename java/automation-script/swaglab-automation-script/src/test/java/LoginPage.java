@@ -29,16 +29,14 @@ public class LoginPage {
         }
     }
 
-    public LoginPage enterUsername(String username) {
+    public void enterUsername(String username) {
         WebElement usernameField = webDriver.findElement(usernameBy);
         usernameField.sendKeys(username.trim());
-        return this;
     }
 
-    public LoginPage enterPassword(String password) {
+    public void enterPassword(String password) {
         WebElement passwordField = webDriver.findElement(passwordBy);
         passwordField.sendKeys(password.trim());
-        return this;
     }
 
     public void clickLoginButton() {

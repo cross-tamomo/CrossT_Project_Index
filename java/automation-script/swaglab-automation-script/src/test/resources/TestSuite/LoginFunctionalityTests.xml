@@ -5,7 +5,7 @@
     <parameter name="browser"  value="chrome"/>
     <parameter name="mainUrl"  value="https://www.saucedemo.com/"/>
         <classes>
-            <class name="io.github.crosstamomo.swaglabautomationscript.LoginPageTest"/>
+            <class name="LoginPageTest"/>
         </classes>
     </test>
 </suite>
